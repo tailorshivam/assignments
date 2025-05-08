@@ -1,0 +1,27 @@
+.input {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 60px;
+  }
+  
+  .input input {
+    font: inherit;
+    width: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.25rem;
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
